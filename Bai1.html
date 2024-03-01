@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+
 </body>
+<script>
+    function findAvg(point) {
+        function sumPoint(point) {
+            let sumPoint = 0;
+            for (let i = 0; i < point.length; i++) {
+                sumPoint += point[i];
+            }
+            return sumPoint;
+        }
+
+        let avgPoint = sumPoint(point) / point.length;
+        return avgPoint;
+    }
+
+
+</script>
 </html>
